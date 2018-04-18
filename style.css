@@ -26,6 +26,8 @@ h3 {
 .toparea {
     background-color: #fff;
     height: 100px;
+    width: 100%;
+    
 }
 
 .container {
@@ -35,23 +37,47 @@ h3 {
 
 .navarea {
     background-color: #fff;
-    height: 100px;
     width: 960px;
     margin: 0 auto;
+ 
 }
 
 .navleft {
-    background-color: #4AAAA5;
-    width: 200px;
+    /* background-color: #4AAAA5; */
+    width: 210px;
     float: left;
+    height: 100px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b7deed+0,71ceef+37,21b4e2+100,b7deed+100,b7deed+100,b7deed+100,21b4e2+100,b7deed+100 */
+background: #b7deed; /* Old browsers */
+background: -moz-linear-gradient(left, #b7deed 0%, #71ceef 37%, #21b4e2 100%, #b7deed 100%, #b7deed 100%, #b7deed 100%, #21b4e2 100%, #b7deed 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #b7deed 0%,#71ceef 37%,#21b4e2 100%,#b7deed 100%,#b7deed 100%,#b7deed 100%,#21b4e2 100%,#b7deed 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #b7deed 0%,#71ceef 37%,#21b4e2 100%,#b7deed 100%,#b7deed 100%,#b7deed 100%,#21b4e2 100%,#b7deed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=1 ); /* IE6-9 */  
+}
+
+.navright {
+    width: 310px;
+    float: right;
+    padding-top: 55px;
+}
+
+.navrlnks {
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #CCCCCC;
+}
+
+.navrlnks a {
+    text-decoration: none;
+    color: #CCCCCC;
 }
 
 .logotex {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 16px;
-    padding-left: 15px;
+    font-family: 'Pacifico', cursive;
+    padding-top: 22px;
+    padding-left: 30px;
     color: #ffffff;
-    font-size: 26px;
+    font-size: 28px;
     text-align: left;
     text-shadow: 2px 2px #acacac;
     font-weight: normal;
@@ -59,14 +85,49 @@ h3 {
 }
 
 .maincontent {
-    height: 440px;
+    height: 540px;
+    /* height: 100%; */
+}
+
+.hmaincontent {
+    height: 100%;
+    
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #acacac;
+}
+
+.maincontsec .lefimg {
+    float: left;
+    margin: 20px;
+}
+
+.maincontsec .rightimg {
+    float: right;
+    margin: 20px;
+}
+
+.maincontsec p {
+    font-family: 'Courier New', Courier, monospace;
+    color: #6e6e6e;
+}
+
+.maincontsec {
+    background-color: #fff;
+    float: left;
+    width: 100%;
+    height: 100%;   
+    margin: 20px 0;
+    padding: 20px 30px;
 }
 
 .leftsection {
     background-color: #fff;
     float: left;
-    width: 55%;
-    height: 400px;
+    width: 70%;
+    height: 500px;
     margin: 20px 0;
 }
 
@@ -89,8 +150,8 @@ h3 {
 .rightsection {
     background-color: #fff;
     float: left;
-    width: 43%;
-    height: 400px;
+    width: 28%;
+    height: 500px;
     /* margin-left: 19px; */
     margin: 20px 0 20px 19px;
 }
@@ -110,5 +171,10 @@ h3 {
 .footerarea {
     width: 100%;
     height: 100px;
-    background-color: #fff;
+    background-color: #ffffff;
+}
+
+.footerarea p {
+    padding: 0;
+    margin: 0;
 }
