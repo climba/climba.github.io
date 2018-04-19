@@ -85,7 +85,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', end
 }
 
 .maincontent {
-    height: 540px;
+    height: 940px;
     /* height: 100%; */
 }
 
@@ -117,7 +117,7 @@ h1, h3 {
 .maincontsec {
     background-color: #fff;
     float: left;
-    width: 100%;
+    width: 910px;
     height: 100%;   
     margin: 20px 0;
     padding: 20px 30px;
