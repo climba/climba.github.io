@@ -16,12 +16,12 @@ html, body {
     background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.6), rgba(29, 210, 177, 0.6) 100%); 
 }
 
-h3 {
+/* h3 {
     text-align: center;
     color: #777;
     padding-top: 40px;
 
-}
+} */
 
 .toparea {
     background-color: #fff;
@@ -94,7 +94,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', end
     
 }
 
-h1 {
+h1, h3 {
     font-family: 'Courier New', Courier, monospace;
     color: #acacac;
 }
@@ -124,23 +124,26 @@ h1 {
 }
 
 .leftsection {
-    background-color: #fff;
+    background-color: #f2f2f2;
     float: left;
     width: 70%;
     height: 500px;
     margin: 20px 0;
+    
+
 }
 
 .articlesec {
-    background-color: #777;  
-    height: 284px;
-    width: 94%;
-    margin: 0 auto;
+    background-color: #fff;  
+    height: 410px;
+    width: 84%;
+    margin: 20px auto;
+    padding: 20px 30px;
 }
 
- .articlesec h3 { 
+ /* .articlesec h3 { 
     color: #fff;
-}
+} */
 
 .articlesec .textblock h4 { 
     color: #777;
@@ -154,6 +157,9 @@ h1 {
     height: 500px;
     /* margin-left: 19px; */
     margin: 20px 0 20px 19px;
+    text-align: center;
+    
+
 }
 
 .textblock {
@@ -167,6 +173,27 @@ h1 {
     padding-top: 10px;
     margin-bottom: 10px;
 }
+
+/* table */
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.tg td{
+    font-family: 'Courier New', Courier, monospace;
+    width: 280px;
+    color: #6e6e6e;
+    font-size:14px;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    border-color:#f2f2f2;
+}
+
+.tg .t-aligne {
+    vertical-align:top}
 
 .footerarea {
     width: 100%;
