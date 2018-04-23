@@ -254,13 +254,107 @@ h1, h3 {
     }
 
     .navarea {
-        width: 100%;
+        background-color: #fff;
+        width: 768px;
+        margin: 0 auto;
+     
     }
-  
+    
+    .navleft {
+        background-color: #71ceef;
+        width: 220px;
+        float: left;
+        height: 60px;
+        
+    }
+
+    .navleft h3 {
+        font-size: 26px;
+        padding: 20px 0 0 16px;
+        margin: 0px;
+    }
+    
+    .navright {
+        width: 300px;
+        float: left;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+    
     .maincontent,
     .maincontsec {
+        width: 100%;
+        background-color: #333;
+    }
+
+    .maincontsec h1 {
+        font-size: 28px;
+    }
+
+    .maincontsec p {
+        font-size: 18px;
+    }
+  
+    .maincontsec .rightimg {
+      margin-top: 40px;
+    }
+  
+    .hidden {
+      display: block;
+      margin-top: 50px;
+    }
+  }
+  
+  /* Additional Screen Sizes */
+
+  @media screen and (max-width: 640px) {
+
+    .container {
+      /* Box-model */
       width: 100%;
-      /* background-color: #333; */
+      padding: 20px;
+    }
+
+    .navarea {
+        background-color: #fff;
+        width: 640px;
+        margin: 0 auto;
+     
+    }
+    
+    .navleft {
+        background-color: #71ceef;
+        width: 220px;
+        float: left;
+        height: 60px;
+        
+    }
+
+    .navleft h3 {
+        font-size: 26px;
+        padding: 20px 0 0 16px;
+        margin: 0px;
+    }
+    
+    .navright {
+        width: 280px;
+        float: left;
+        padding-top: 20px;
+        font-size: 16px;
+    }
+    
+    .maincontent,
+    .maincontsec {
+        width: 100%;
+        background-color: #333;
+    }
+
+    .maincontsec h1 {
+        font-size: 28px;
+    }
+
+    .maincontsec p {
+        font-size: 18px;
     }
   
     .maincontsec .rightimg {
@@ -285,13 +379,45 @@ h1, h3 {
     }
 
     .navarea {
-        width: 100%;
+        background-color: #fff;
+        width: 320px;
+        margin: 0 auto;
+     
+    }
+    
+    .navleft {
+        background-color: #71ceef;
+        width: 120px;
+        float: left;
+        height: 36px;
+        
+    }
+
+    .navleft h3 {
+        font-size: 18px;
+        padding: 13px 0 0 8px;
+        margin: 0px;
+    }
+    
+    .navright {
+        width: 150px;
+        float: center;
+        padding-top: 20px;
+        font-size: 9px;
     }
     
     .maincontent,
     .maincontsec {
         width: 100%;
         background-color: #333;
+    }
+
+    .maincontsec h1 {
+        font-size: 20px;
+    }
+
+    .maincontsec p {
+        font-size: 12px;
     }
     
     .maincontsec .rightimg {
