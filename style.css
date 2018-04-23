@@ -243,3 +243,106 @@ h1, h3 {
     padding: 0;
     margin: 0;
 }
+
+
+@media screen and (max-width: 768px) {
+
+    .container {
+      /* Box-model */
+      width: 100%;
+      padding: 20px;
+    }
+
+    .navarea {
+        width: 100%;
+    }
+  
+    .maincontent,
+    .maincontsec {
+      width: 100%;
+      /* background-color: #333; */
+    }
+  
+    .maincontsec .rightimg {
+      margin-top: 40px;
+    }
+  
+    .hidden {
+      display: block;
+      margin-top: 50px;
+    }
+  }
+  
+  /* Additional Screen Sizes */
+  
+  /* Width at 320px and below */
+  @media screen and (max-width: 320px) {
+    
+    .container {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+
+    .navarea {
+        width: 100%;
+    }
+    
+    .maincontent,
+    .maincontsec {
+        width: 100%;
+        background-color: #333;
+    }
+    
+    .maincontsec .rightimg {
+        margin-top: 40px;
+        height: 200px;
+        width: 124px;
+    }
+    .maincontsec .lefimg {
+        margin-top: 40px;
+        height: 150px;
+        width: 150px;
+    }
+    
+    .hidden {
+        display: block;
+        margin-top: 50px;
+    }
+}
+  
+  /* Width at 168px and below */
+  @media screen and (max-width: 168px) {
+    
+    .container {
+        /* Box-model */
+        width: 100%;
+        padding: 20px;
+    }
+
+    .navarea {
+        width: 100%;
+    }
+    
+    .maincontent,
+    .maincontsec {
+        width: 100%;
+        /* background-color: #333; */
+    }
+    
+    .maincontsec .rightimg {
+        margin-top: 40px;
+        height: 100px;
+        width: 62px;
+    }
+    .maincontsec .lefimg {
+        margin-top: 40px;
+        height: 100px;
+        width: 100px;
+    }
+    
+    .hidden {
+        display: block;
+        margin-top: 50px;
+    }
+}
