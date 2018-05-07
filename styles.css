@@ -1,0 +1,180 @@
+body, html {
+    height: 100%;
+}
+
+.container-fluid {
+    background: #343A40; 
+    height: 80px;
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+
+.navbar {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    color: #F8F9FA;
+    background-color: rgba(56, 56, 56, 0.8);
+}
+
+.col{
+    background-color:rgba(56, 56, 56, 0.8);
+    }
+
+.col-sm-4  {
+    background-color:rgba(56, 56, 56, 0.8);
+    }
+
+.col-sm-8  {
+    background-color:rgba(56, 56, 56, 0.8);
+    }            
+    
+    .col-wrap{
+    overflow: hidden; 
+    }  
+
+.bg { 
+    /* The image used */
+    /* background-image: url("http://mdbootstrap.com/img/Photos/Others/img%20(42).jpg"); */
+    background-image: url("https://mdbootstrap.com/img/Photos/Others/img%20%2848%29.jpg");
+    
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+
+
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #3f3f3f;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #3f3f3f !important;
+}
+#footer h5{
+	/* padding-left: 10px; */
+    /* border-left: 3px solid #eeeeee; */
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+/* NAV SYLES */
+
+// Make default navbar links display block at choosen breakpoint and adjust styles to fit...
+@media (max-width: 980px) {
+	.navbar-nav {
+		padding-top: .425rem;
+		padding-left: 0.75rem;
+	}
+	.navbar-nav .nav-item {
+		float: none;
+	}
+	.navbar-brand {
+		float: right;
+	}
+	.navbar-brand,
+	.navbar-nav .nav-item {
+		display: block;
+	}
+	.navbar-nav .nav-item + .nav-item {
+		margin-left: 0;
+	}
+	.dropdown-menu {
+		position: relative;
+		float: none;
+	}
+}
+
+/* NAV STYLES */
+
+/* @media screen and (max-width: 980px) {
+    /* The body's bg color will be #333 */
+    /* .rezimg { */
+      /* height: 200px; */
+    /* } */
+  /* } */
+
+  /* @media screen and (max-width: 760px) {
+    /* The body's bg color will be #333 */
+  /*   .rezimg { */
+  /*     height: 150px; */
+  /*   } */
+ /*  } */

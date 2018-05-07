@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="UTF-8">
+            <!-- Bootstrap core CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="styles.css" >
+            <meta name="author" content="Mike White">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+    <body>
+        <div class="container-fluid">
+
+<!-- Begin Navbar  -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="mx-auto order-0">
+                <a class="navbar-brand" href="#"><span class="mb-0 h2">Mike White</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                        </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+<!-- End Nav Bar -->                  
+            </div>
+
+                
+<!-- Begin main Content -->
+        <div class="bg">
+            <br />
+                <div class="container mb-3">
+                                         
+                    <div class="container">
+                            <div class="row">
+                              <div class="col col-md-7 mr-2 pb-3">
+                                    <h3>Contact Form</h3> 
+                                    <hr>
+                                    <form role="form">
+                                            <br style="clear:both">
+                                                        <!-- <h3 style="margin-bottom: 25px; text-align: center;">Contact Form</h3> -->
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                                                        </div>
+                                                        <div class="form-group">
+                                                        <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                                                            <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
+                                                        </div>
+                                                
+                                            <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+                                            </form>
+                                </div>
+                              <div class="col col-md-4 float-left">
+                                    <h4 class="text-center">Social Media</h4>
+                                    <div class="row">
+                                        
+                                            <div class="col text-center">
+                                            <img src="images/soci_facebook.png">
+                                                <br />
+                                            <img src="images/soci_git.png">
+                                                <br />
+                                            <img src="images/soci_youtube.png">
+                                                </div>
+                                            <div class="col text-center">
+                                            <img src="images/soci_insta.png">
+                                            <br />
+                                            <img src="images/soci_twitter.png">
+                                            <br />
+                                            <img src="images/soci_pintrest.png">
+                                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
+                </div>
+            </div>        
+<!-- End main Content -->    
+    
+        
+<!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="row text-center text-xs-center text-sm-left text-md-left">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Videos</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <h5>Quick links</h5>
+                        <ul class="list-unstyled quick-links">
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Home</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>About</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                            <li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Started</a></li>
+                            <li><a href="https://wwwe.sunlimetech.com" title="Design and developed by"><i class="fa fa-angle-double-right"></i>Imprint</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                        <ul class="list-unstyled list-inline social text-center">
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                            <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                    </hr>
+                </div>	
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                        <p>The Gripser is a subsidiary of The Climbster, Inc. California [a wholly owned subsidiary of Mike White, Berkeley, CA]</p>
+                        <p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="http://www.joomla-go.com" target="_blank">Mike White</a></p>
+                    </div>
+                    </hr>
+                </div>	
+            </div>
+        </section>
+<!-- ./Footer -->
+                          
+                  
+                        
+    
+    </body>
+</html>  
+                    
